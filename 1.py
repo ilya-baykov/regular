@@ -11,7 +11,7 @@ match_2 = re.findall("еда", text_2)
 
 match_3 = re.findall(r"[еЕ]д[ау]", text_3)
 
-match_4 = re.findall("[0123456789]", text_4)
+match_4 = re.findall("[0-9]", text_4)
 
 match_4_2 = re.findall(r"\d{2}", text_4)
 
