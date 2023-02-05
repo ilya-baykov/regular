@@ -16,6 +16,7 @@ match_4 = re.findall("[0-9]", text_4)
 match_4_2 = re.findall(r"\d{2}", text_4)
 
 match_5 = re.findall(r"[^0-9]", text_4)
+match_5_2 = re.findall(r"[а-я]", text_4)
 
 if __name__ == '__main__':
     print(match)
@@ -24,3 +25,4 @@ if __name__ == '__main__':
     print(match_4)
     print(match_4_2)
     print(match_5)
+    print(match_5_2)
